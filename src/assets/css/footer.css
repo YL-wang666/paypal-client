@@ -1,0 +1,190 @@
+footer{
+    background: linear-gradient(rgb(37, 37, 37) , rgb(75, 74, 74) , rgb(37, 37, 37));
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(211, 210, 210);
+    font-size: 14px;
+}
+
+.footer-text-mobule{
+    display: grid;
+    grid-template-columns: 25% 35% 30%;
+    margin-left: 5%;
+    padding-bottom: 2%;
+}
+
+/**/
+
+.footer-email-mobule h4{
+    font-size: 18px;
+    
+}
+
+.footer-email-mobule div{
+    line-height: 30px;
+    width: 70%;
+}
+
+.footer-email-mobule input{
+    height: 30px;
+    width: 135%;
+    margin-top: 2%;
+    font-size: 16px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.footer-email-input{
+    position: relative;
+    margin-top: 3%;
+    z-index: 0;
+}
+
+.footer-email-input button{
+    position: absolute;
+    top: 16%;
+    right: -40%;
+    width: 35%;
+    height: 32px;
+    font-size: 16px;
+    background-color: #1A3A64;
+    color: white;
+    border: none;
+}
+
+.footer-email-mobule button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.fotter-media-btn-mobule{
+    width: 100%;
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+}
+
+.fotter-media-btn-mobule img{
+    width: 35px;
+}
+
+/**/
+
+.footer-btn-mobule{
+    display: block;
+}
+
+.footer-btn-mobule h4{
+    font-size: 20px;
+    
+}
+
+.footer-btn-mobule li{
+    list-style: none;
+    margin-top: 5%;
+    font-size: 16px;
+
+}
+
+.footer-service-email-mobule{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-row-gap : 30%;
+    color: rgb(226, 225, 225);
+}
+
+.footer-email-a{
+    margin-top: 3px;
+}
+
+.footer-email-a a{
+    color: rgb(197, 197, 197);
+}
+
+.footer-contact-mobule h4{
+    font-size: 20px;
+}
+
+/*最下面*/
+.footer-bottom-mobule{
+    width: 100%;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 30% 25% 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(85, 85, 85);
+}
+
+.footerISO{
+    display: grid;
+    grid-template-columns: 12% 50%;
+    margin: auto;
+}
+
+.footerISO img{
+    width: 23px;
+    text-align: right;
+}
+
+.footerISO select{
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    outline: none;
+}
+
+.footer-card-mobule{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    margin-left: 26%;
+}
+
+.footer-card-mobule img {
+    width: 42px;
+    height: 26px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/*订阅*/
+.footer-sign-mobule{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(110, 110, 110, 0.432);
+    width: 100%;
+    height: 100%;
+    padding-top: 1%;
+    border-radius: 10px;
+    display: none;
+    z-index: 999;
+    backdrop-filter: blur(5px);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.footer-sign-close-btn{
+    font-size: 18px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    color: red;
+    margin-left: 66%;
+    margin-right: 3%;
+    background-color: rgb(230, 230, 230);
+}
+
+.footer-sign-close-btn:hover{
+    background-color: orangered;
+    color: white;
+}
+

@@ -1,0 +1,478 @@
+.detail-product-mobule{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    margin-top: 20%;
+}
+
+.detail-video-mobule{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 5%;
+    right: 5%;
+    bottom: 2%;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.671);
+    padding-top: 5%;
+    z-index: 9999;
+}
+
+.detail-close-video-btn{
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d10483;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+.detail-close-video-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px whitesmoke ;
+}
+
+.detail-product-img-mobule{
+    padding-left: 4%;
+    margin-left: 1%;
+}
+
+.detail-display-img{
+    width: 90%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+
+/*图片下标*/
+.detail-img-bottom-mobule{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    border-bottom: 2px black solid;
+    border-top:  2px black solid;
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+.detail-icon-mobule{
+    display: line;
+    height: 85px;
+    overflow: hidden;
+}
+
+.detail-video-icon-btn:hover{
+    cursor: pointer;
+}
+
+.detail-icon-mobule img{
+    width: 83px;
+    height: 83px;
+    margin-left: 7px;
+}
+
+.detail-icon-mobule video{
+    width: 90%;
+}
+
+.detail-icon-turn-left{
+    width: 120%;
+    height: 85px;
+    font-size: 30px;
+    border: none;
+}
+
+.detail-icon-turn-right{
+    width: 120%;
+    margin-left: -20%;
+    height: 85px;
+    font-size: 30px;
+    border: none;
+}
+
+.detail-icon-turn-left:hover,.detail-icon-turn-right:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+/*右边*/
+.detail-product-info-mouble{
+    padding-left: 5%;
+    width: 95%;
+}
+
+.detail-product-info-mouble h1{
+    width: 95%;
+    padding: 0;
+    margin: 0;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    color: #1A3A64;
+}
+
+.detail-product-info-small-label{
+    font-size: 14px;
+    color: #1A3A64;
+}
+
+.detail-info-price-mobule{
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 25% 22% 20%;
+}
+
+.detail-price{
+    font-size: 50px;
+    margin-top: 5%;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.detail-delete-price{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Noto Serif SC', serif;
+    color: rgb(182, 179, 179);
+    text-decoration-line: line-through;
+    text-decoration-style : initial;
+    text-decoration-color : black;
+    padding-top: 4px;
+}
+
+.detail-save{
+    width: 100px;
+    height: 26px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Noto Serif SC', serif;
+    color: white;
+    background-color: rgb(235, 1, 79);
+    text-align: center;
+    margin: auto;
+}
+
+.detail-line{
+    height: 3px;
+    background-color: whitesmoke;
+    width: 95%;
+    margin-top: 15px;
+}
+
+/**/
+.detail-func-mobule h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 2% 0 2% 0;
+    font-family: 'Cormorant Garamond', serif;
+    color: #1A3A64;
+}
+
+.detail-func-info{
+    display: grid;
+    grid-template-columns: 3% 98%;
+    color: #1A3A64;
+}
+
+.detail-func-info div{
+    width: 6px;
+    height: 6px;
+    background-color: #1A3A64;
+    margin-top: 19px;
+    border-radius: 50%;
+}
+
+.detail-func-info p{
+    width: 90%;
+    line-height: 1.6;
+    font-size: 14px;
+    padding: 0;
+    margin: 8px 0 0 0;
+    
+}
+
+/**/
+.detail-choose-mobule{
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+.detail-choose-mobule h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.detail-choose-img{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.detail-choose-img img{
+    width: 70px;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+.detail-qty-mobule{
+    padding-left: 10%;
+}
+
+.detail-qty-info{
+    position: relative;
+    border: 1px rgb(224, 224, 224) solid;
+    margin-top: 18%;
+}
+
+.detail-qty-input{
+    width: 95%;
+    height: 45px;
+    text-align: center;
+    border: none;
+    outline-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.detail-qty-Subtract-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    padding: 12px;
+    width: 25%;
+    border: none;
+    background-color:whitesmoke;
+}
+
+.detail-qty-add-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    padding: 12px;
+    width: 25%;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.detail-qty-info button:hover{
+    cursor: pointer;
+}
+
+/**/
+.detail-pay-btn-mobule{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10%;
+}
+
+.detail-cart-btn{
+    width: 90%;
+    padding: 13px;
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border: 1.2px black solid;
+}
+
+.detail-pay-btn{
+    width: 90%;
+    padding: 13px;
+    background-color: #002D5C;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border: 1.2px black solid;
+}
+
+.detail-cart-btn:hover,.detail-pay-btn:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+/**/
+.detail-different-mobule{
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 100%;
+    background-color: #F5F8FB;
+}
+
+.detail-different-mobule h2{
+    font-size: 3rem;
+    font-size: 600;
+    font-family: 'Cormorant Garamond', serif;
+    color: #1A3A64;
+    text-align: center;
+}
+
+.detail-different-text-mobule{
+    display: grid;
+    grid-template-columns: 55% 40%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+}
+
+.detail-different-text-mobule p{
+    padding-left: 5%;
+    font-size: 16px;
+    color: #1A3A64;
+    line-height: 1.6;
+    letter-spacing: 0.3;
+}
+
+.detail-different-text-mobule img{
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 50%;
+}
+
+.detail-linglong-label{
+    font-size: 16px;
+    color: #1A3A64;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.detail-linglong-process-mobule{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #1A3A64;
+    color: #e0e6f0;
+}
+
+.detail-linglong-process-mobule p{
+    width: 80%;
+    padding-left: 15%;
+    margin-top: 5%;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.5;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+}
+
+.detail-linglong-process-mobule img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+/*推荐*/
+.detail-maybe-like-title{
+    font-size: 3rem;
+    font-size: 600;
+    font-family: 'Cormorant Garamond', serif;
+    color: #1A3A64;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.detail-maybe-like-mobule{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.detail-maybe-like-mobule div{
+    width: 90%;
+    padding: 5%;
+}
+
+.detail-maybe-like-mobule img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.detail-maybe-like-mobule p{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.detail-maybe-like-mobule a{
+    text-decoration: none;
+    color: #1A3A64;
+}
+
+.detail-maybe-like-mobule div:hover{
+    background-color: whitesmoke;
+}
+
+/*评论
+.detailReview{
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.detailReviewTitle{
+    display: grid;
+    grid-template-columns: 25% 10% 63%;
+    margin-left: 2%; 
+    font-family: 'Cinzel', serif;
+}
+
+.detailReviewTitle button{
+    position: absolute;
+    right: 0;
+    bottom: 12%;
+    font-weight: 600;
+    width: 150px;
+    padding: 9px;
+    font-size: 16px;
+    background-color: #d10483;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.detailReviewTitle button:hover{
+    cursor: pointer;
+}
+
+.detailReviewTitle h3{
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.detailReviewTitle p{
+    font-size: 30px;
+    color: orange;
+    text-decoration: underline;
+    padding-top: 3%;
+}
+
+.detailReviewText{
+    margin-top: 2%;
+    box-shadow: 0 0 6px 1px rgb(196, 196, 196) ;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+}
+
+.detailReviewText img{
+    width: 120px;
+    max-height: 130px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+*/

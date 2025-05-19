@@ -1,0 +1,150 @@
+.shop-promise-title{
+    margin-top: 18%;
+    font-size: 3rem;         /* 大标题 */
+    font-family: 'Playfair Display', serif; /* 高雅的衬线体，适合文化/古典风格 */
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 20%;
+    line-height: 1.2;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+
+.shop-promise-info{
+    margin-top: 3%;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.shop-choose-mobule{
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 18% 80%;
+}
+
+.shop-choose-mobule select{
+    font-size: 18px;
+    padding-left: 20px;
+    height: 45px;
+    width: 200px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.shop-choose-btn-mobule button{
+    width: 150px;
+    margin-left: 3%;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    border: 1.5px #002D5C solid;
+    background-color: white;
+    color: #1A3A64;
+}
+
+.shop-choose-btn-mobule button:hover{
+    cursor: pointer;
+    background-color: #002D5C;
+    color: #F7F4EF;
+}
+
+
+/*产品*/
+
+
+.shop-products-mobule{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.shop-product-info{
+    margin-top: 20%;
+    width: 90%;
+}
+
+.shop-product-info img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.shop-product-info-title{
+    width: 82%;
+    margin-left: 9%;
+    letter-spacing: 0.3px;
+    line-height:1.6;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    color: #1A3A64;
+}
+
+
+.shop-product-info b{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+
+.shop-cart-btn{
+    position: relative;
+    width: 19%;
+    margin-left: 20%;
+    padding-top: 5px;
+    border-radius: 50%;
+}
+
+.shop-cart-btn:hover{
+    cursor: pointer;
+}
+
+.addStatus{
+    position: absolute;
+    bottom: 0%;
+    right: -20%;
+    display: none;
+}
+
+
+.shop-product-info button{
+    width: 82%;
+    margin-left: 9%;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    border: 1.5px #002D5C solid;
+    background-color: white;
+    color: #1A3A64;
+}
+
+.shop-product-info img:hover{
+    cursor: pointer;
+}
+
+.shop-product-info button:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.shop-more-product{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+
+.shop-more-product i:hover{
+    cursor: pointer;
+}
+

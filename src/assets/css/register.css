@@ -1,0 +1,249 @@
+/*已经登录*/
+.sign-logged-mobule{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+/*出去google按钮中的图标*/
+.sign-logged-mobule svg{
+    display: none;
+}
+
+
+.sign-logged-mobule h3{
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 600;
+    color: green;
+    font-size: 25px;
+    margin-top: 15%;
+    margin-bottom: 8%;
+}
+
+.sign-logged-mobule button{
+    width: 40%;
+    margin-top: 5%;
+}
+
+.sign-logged-mobule button span{
+    margin-left: 20%;
+    font-weight: 600;
+    color: black;
+}
+
+.sign-logged-mobule button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+
+/*登录*/
+.LoginForm{
+    position: fixed;
+    top: 0;
+    background-color: whitesmoke;
+    width: 40%;
+    margin-left: 30%;
+    padding-bottom: 3%;
+    height: 100%;
+    z-index: -1;
+}
+
+.sign-title{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.login-to-sign:hover{
+    cursor: pointer;
+}
+
+.sign-title-mobule{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+}
+
+.sign-title-mobule h2{
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.login-link-mobule{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 2%;
+    padding-left: 5%;
+}
+
+.log-to-sign{
+    padding: 3% 15% 3% 3%;
+    text-align: center;
+}
+
+.log-to-sign i{
+    text-decoration: underline;
+    color: teal;
+    font-weight: 600;
+}
+
+.log-to-sign i:hover{
+    cursor: pointer;
+}
+
+/*是忘记密码和注册页面头部样式*/
+.sign-link-text{
+    padding: 3% 15% 3% 3%;
+    text-align: right;
+}
+
+.sign-link-text i{
+    text-decoration: underline;
+    color: teal;
+    font-weight: 600;
+}
+
+.sign-link-text i:hover{
+    cursor: pointer;
+}
+
+/*
+这是注册的样式,也是登录注册修改三个页面主体共同的样式
+*/
+
+.SignUpForm{
+    position: fixed;
+    top: 0;
+    background-color: whitesmoke;
+    width: 40%;
+    margin-left: 30%;
+    padding-bottom: 3%;
+    z-index: -1;
+    color: black;
+}
+
+.sign-logo{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    font-size: 32px;
+    font-weight: 900;
+    
+}
+
+.SignUpFormText{
+    position: relative;
+    margin-left: 10%;
+}
+
+.SignUpFormText div label{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.SignUpInput{
+    width: 90%; 
+    height: 30px; 
+    padding-left: 10px;
+    border: 1px rgb(184, 184, 184) solid;
+}
+
+.SignUpState{
+    color: red;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.SignUpCaptcha{
+    width: 58%;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px rgb(184, 184, 184) solid;
+}
+
+.SignUpVerify{
+    position: relative;
+    margin-top: 1%;
+}
+
+.countdownButton{
+    position: absolute;
+    text-align: center;
+    padding-top: 2px;
+    right: 39.5%;
+    width: 90px;
+    height: 16px;
+    top: 30%;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(245, 72, 9);
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.getCaptcha{
+    position: absolute;
+    text-align: center;
+    padding-top: 2px;
+    right: 39.5%;
+    width: 90px;
+    height: 16px;
+    top: 30%;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(247, 95, 40);
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.getCaptcha:hover{
+    cursor: pointer;
+}
+
+.SignUpPassword,.SignUpConfirm{
+    width: 90%; 
+    height: 30px; 
+    padding-left: 10px;
+    border: 1px rgb(184, 184, 184) solid;
+}
+
+
+.SignUpSubmit{
+    margin-top: 10%;
+    width: 84%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    font-size: 16px;
+    font-weight: 500;
+    background-color:rgb(245, 72, 9);
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.SignUpSubmit:hover{
+    cursor: pointer;
+    box-shadow: 0 0 3px 1px rgb(145, 145, 145) ;
+}
+
+.sign-prompt{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+    border-top: 1px rgb(206, 204, 204) solid;
+    padding-top: 5px;
+}
+
+
+

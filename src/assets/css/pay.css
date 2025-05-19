@@ -1,0 +1,407 @@
+.payHeadISO{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: auto;
+}
+
+.payHeadISO div{
+    margin: auto;
+}
+
+.payHeadISO select{
+    background-color: white;
+    border: none;
+    height: 30px;
+}
+
+/**/
+
+.pay-head{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border-bottom: 1px rgb(202, 201, 201) solid;
+}
+
+.pay-head h1{
+    padding-left: 15%;
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+}
+
+.pay-head-right{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    text-align: right;
+    
+}
+
+.pay-head-right select{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(73, 73, 73);
+    width: 120px;
+}
+
+.pay-cart {
+    border-left: 1px rgb(214, 213, 213) solid;
+    margin: auto;
+    padding-left: 20%;
+}
+
+/*上面是头部信息样式*/
+.pay-order-mobule{
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.pay-order-info{
+    background-color: whitesmoke;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+
+.pay-product-mobule{
+    display: grid;
+    grid-template-columns: 20% 60% 10%;
+    padding-bottom: 5%;
+}
+
+.pay-product-mobule img{
+    width: 80%;
+    background-color: white;
+    margin-left: 20%;
+    border-radius: 5px;
+}
+
+.pay-product-title-total{
+    padding-left: 10%;
+}
+
+.payProInfoTitle {
+    letter-spacing: 0.6px;
+    line-height: 23px;
+    color: rgb(37, 37, 37);
+    min-height: 65px;
+}
+
+.payProInfoPrice{
+    display: grid;
+    grid-template-columns: 30% 20%;
+}
+
+.payProInfoPrice b{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(209, 8, 8);
+}
+
+.payProInfoPrice span{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    margin-left: 10%;
+    text-decoration-line: line-through;
+    text-decoration-style : initial;
+    text-decoration-color : black;
+}
+
+/**/
+.pay-discount-mobule{
+    width: 82%;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+}
+
+.pay-discount-mobule select{
+    width: 70%;
+    height: 30px;
+    padding-left: 10px;
+    background-color: whitesmoke;
+    border: none;
+    color: goldenrod;
+    font-weight: 500;
+    padding: 5px;
+    outline: none;
+}
+
+.pay-login{
+    margin-top: 5%;
+    padding-left: 35px;
+    text-decoration: underline;
+    font-weight: 300;
+    
+}
+
+.pay-login:hover{
+    cursor: pointer;
+}
+
+.pay-login-hint{
+    font-size: 14px;
+    margin-top: 5%;
+    color: gray;
+}
+
+.pay-info-label{
+    padding-left: 35px;
+    font-weight: 600;
+    color: rgb(44, 44, 44);
+}
+
+.pay-payment-info-mobule{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    margin-top: 5%;
+}
+
+.pay-payment-label{
+    padding-left: 10%;
+    color: rgb(27, 27, 27);
+}
+
+.pay-payment-total-label{
+    font-size: 23px;
+    font-weight: 600;
+    padding-left: 10%;
+    margin-top: 5%;
+}
+
+.pay-payment-total{
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+/*左边付款部分*/
+
+.pay-payment-paypal-btn-mobule{
+    width: 100%;
+    margin-top: 3%;
+}
+
+.pay-payment-paypal-btn-mobule h4{
+    text-align: center;
+    font-weight: 400;
+    color: rgb(80, 80, 80);
+    font-size: 14px;
+}
+
+.pay-paypal-btn{
+    width: 40%;
+    height: 42px;
+    background-color: gold;
+    text-align: center;
+    margin-top: 10px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.pay-paypal-btn img {
+    height: 60%;
+    margin-top: 5px;
+}
+
+.pay-payment-divider{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+}
+
+.pay-payment-divider div{
+    border-bottom: 1px rgb(218, 218, 218) solid;
+}
+
+.pay-payment-divider p{
+    margin-bottom: -10%;
+    text-align: center;
+    color: gray;
+}
+
+.pay-paypal-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 6px 2px rgb(112, 112, 112) ;
+}
+
+/*信用卡*/
+
+.pay-credit-btn{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 20% 65%;
+    background-color: black;
+    color: white;
+    height: 45px;
+    margin-left: 30%;
+    margin-top: 6%;
+    border-radius: 5px;
+}
+
+.pay-credit-btn img{
+    width: 50%;
+    margin: auto;
+}
+
+.pay-credit-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 6px 2px rgb(112, 112, 112) ;
+}
+
+
+.pay-credit-btn div{
+    margin: auto;
+    font-weight: 600;
+}
+
+.pay-card-icon-mobule{
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 3%;
+}
+
+.pay-card-icon-mobule img{
+    width: 42px;
+    height: 28px;
+    margin-left: 3%;
+    border: 1px whitesmoke solid;
+    border-radius: 2px;
+}
+
+.pay-card-secure-hint-mobule{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    width: 82%;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 1%;
+    background-color: whitesmoke;
+}
+
+.pay-card-secure-hint-mobule div{
+    margin: auto;
+}
+
+.pay-card-secure-hint-mobule p{
+    padding: 0;
+    margin: 0;
+    width: 85%;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+
+/*收货地址和联系*/
+.pay-shipping-address-mobule{
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.pay-shipping-address-mobule h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.pay-shipping-address-mobule p{
+    width: 90%;
+    font-size: 14px;
+    background-color: whitesmoke;
+    color: gray;
+    padding: 15px;
+}
+
+/*政策*/
+.pay-policy-mobule{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    border-top: 1px rgb(228, 228, 228) solid;
+}
+
+.pay-policy-mobule ul{
+    list-style: none;
+    margin-left: 6%;
+}
+
+.pay-policy-mobule ul li{
+    display: inline;
+    margin-left: 15px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: rgb(34, 34, 34);
+}
+
+.pay-policy-mobule ul li:hover{
+    cursor: pointer;
+}
+
+/*政策模块*/
+.pay-policy-btn-info-mobule{
+    position: fixed;
+    top: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: rgba(31, 31, 31, 0.219);
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    backdrop-filter: blur(5px);
+    display: none;
+}
+
+.pay-policy-btn-info-mobule button{
+    position: fixed;
+    top: 8%;
+    right: 23%;
+    z-index: 999;
+    color: orangered;
+    background-color: white;
+    border: 1px rgb(204, 204, 204) solid;
+    width: 2.5%;
+    height: 5%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.pay-policy-btn-info-mobule button:hover{
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+}
+
+.pay-policy-btn-info{
+    position: fixed;
+    top: 3%;
+    left: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 60%;
+    height: 80%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+
+.pay-policy-btn-info-mobule h4{
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.pay-policy-btn-info-mobule p{
+    letter-spacing: 0.7px;
+    line-height: 23px;
+    font-size: 14px;
+}

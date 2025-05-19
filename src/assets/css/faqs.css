@@ -1,0 +1,63 @@
+.FAQ-mobule{
+    margin-top: 16%;
+    margin-bottom: 6%;
+}
+
+.FAQ-mobule h3{
+    margin-left: 18%;
+    font-size: 30px;
+    font-weight: 500;
+    font-size: 3.5rem;         /* 大标题 */
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.FAQ-info{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.FAQ-text{
+    margin-left: 3%;
+    border-bottom: 0.5px rgb(167, 167, 167) solid;
+    letter-spacing: 0.6px;
+    line-height: 25px;
+}
+
+.FAQ-title{
+    display: grid;
+    grid-template-columns: 90% 8%;
+    height: 60px;
+    margin-bottom: 2%;
+}
+
+.FAQ-title:hover{
+    cursor: pointer;
+}
+
+.FAQ-info h4{
+    margin-top: 2%;
+    padding-left: 10px;
+    color: #1A3A64;
+}
+
+.FAQ-show-btn{
+    font-size: 25px;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.FAQ-info p{
+    display: none;
+    font-size: 14px;
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 5%;
+    letter-spacing: 0.6px;
+    line-height: 25px;
+}
+
+.FAQ-info p a{
+    text-decoration: none;
+}

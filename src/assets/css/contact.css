@@ -1,0 +1,202 @@
+.contact-head-mobule{
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 30, 0.5), rgba(0, 0, 50, 0.5)), 
+                        url('../images/contactTit.jpg'); /* 替换为你的图片路径 */
+    background-size: cover;
+    background-position: center;
+    color: #e0e6f0; /* 微蓝调的灰白色，增强与青花蓝统一 */
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.contact-head-text{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 40%;
+}
+
+.contact-head-text h2{
+    font-size: 3.5rem;         /* 大标题 */
+    font-family: 'Playfair Display', serif; /* 高雅的衬线体，适合文化/古典风格 */
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 15%;
+    line-height: 1.2;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6); /* 增强可读性 */
+}
+
+.contact-head-text p{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 25px;
+    color: rgb(224, 224, 224);
+}
+
+/*表单*/
+.contactUsFormMobule{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.contactUsFormMobule-mobule-1{
+    padding-left: 10%;
+}
+
+.contactUsFormMobule-mobule-1 h3{
+    font-size: 25px;
+    color: #1A3A64;
+}
+
+.contactUsFormMobule-mobule-2{
+    padding-left: 5%;
+    padding-top: 16%;
+}
+
+.contactUsFormMobule label{
+    color: #1A3A64;
+}
+
+.contactUsSelect{
+    width: 90%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 1%;
+    border: none;
+    background-color: whitesmoke;
+    outline: none;
+}
+
+.contactUsFormMobule input{
+    padding-left: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    outline: none;
+}
+
+.contactUsInput{
+    margin-top: 1%;
+    width: 90%;
+    height: 6%;
+    border: none;
+    background-color: whitesmoke;
+    outline: none;
+}
+
+.contactUsTextarea{
+    resize:none;
+    width:88%;
+    height: 40%;
+    margin-top: 1%;
+    border: none;
+    background-color: whitesmoke;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contactUsSubmit{
+    width: 40%;
+    font-size: 16px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 2%;
+    background-color: #002D5C;
+    color: #F7F4EF;
+    margin-top: 18%;
+}
+
+.contactUsSubmit:hover{
+    cursor: pointer;
+    box-shadow: 0 0 6px 2px rgb(112, 112, 112) ;
+}
+
+.contactUsPrompt{
+    position: fixed;
+    top: 30%;
+    left: 37%;
+    width: 230px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 3%;
+}
+
+.contactUsPromptHidden{
+    display: none;
+}
+
+/**/
+.contact-email-mobule{
+    height: 350px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 5%;
+    background-color: rgb(248, 248, 248);
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.contact-email-info{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 12% 2% 8% 2%;
+    background-color: white;
+    border: 3px rgb(248, 248, 248) solid;
+}
+
+.contact-email-info img{
+    width: 30%;
+}
+
+.contact-email-info p{
+    font-size: 18px;
+    margin-top: 20%;
+    font-weight: 500;
+}
+
+.contact-email-info a{
+    color: black;
+    font-size: 16px;
+}
+
+.contact-email-info div{
+    margin-top: 12%;
+    color: gray;
+}
+
+.contact-email-info:hover{
+    animation : contactmove 1s;
+    box-shadow: 0 0 3px 2px rgb(238, 238, 238) ;
+    margin-top: -3%;
+}
+
+@keyframes contactmove {
+    from {
+        margin-top: 0;
+    }
+
+    to {
+        margin-top: -3%;
+    }
+}
+
+.contact-worktime-mobule{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    color: rgb(26, 26, 26);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10%;
+}

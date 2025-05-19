@@ -1,0 +1,117 @@
+.shipping-head-mobule{
+    position: relative;
+    margin-top:7%;
+    z-index: 0;
+}
+
+.shipping-head-mobule img{
+    filter: brightness(90%);
+}
+
+.shipping-head-title-mobule{
+    position: absolute;
+    width: 55%;
+    top: 0;
+    height: 100%;
+    background: linear-gradient(to right,rgb(9, 1, 36) 50%,rgba(189, 189, 190, 0));
+    
+}
+
+.shipping-move{
+    width: 100%;
+    animation: shippingMove 2s;
+}
+
+@keyframes shippingMove {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.shipping-head-title-mobule div{
+    margin-top: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+.shipping-head-title-mobule h1{
+    width: 85%;
+    color: white;
+    font-size: 30px;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 600;
+}
+
+/**/
+.shipping-policy-mobule h2{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Noto Serif SC', serif;
+    margin-top: 8%;
+}
+
+.shipping-policy-label{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin-top: 2%;
+}
+
+.shipping-info-mobule{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    letter-spacing: 0.7px;
+    line-height: 25px;
+    background-color: rgb(247, 247, 247);
+}
+
+.shipping-text-mobule{
+    width: 60%;
+    margin-left: 15%;
+    padding: 5%;
+    height: 300px;
+    margin-top: 15%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.shipping-text-mobule h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.shipping-text-mobule p{
+    font-size: 14px;
+    margin-top: 8%;
+}
+
+/*nav*/
+.shipping-nav-mobule{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: grid;
+    grid-template-columns: 4% 1.5% 50%;
+}
+
+.shipping-nav-mobule a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.shipping-nav-mobule a:hover{
+    text-decoration: underline;
+}

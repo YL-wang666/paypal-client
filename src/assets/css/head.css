@@ -1,0 +1,229 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+用于Google艺术字体*/
+
+.head-all-mobule{
+    background-color: #F7F4EF;
+    color: #1A3A64;
+}
+
+.headTop{
+    height: 42px;
+    border-bottom: 2px #224b81 solid;
+}
+
+.headTopInfo{
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
+
+
+/*导航栏*/
+.head-logo-mobule{
+    position: relative;   /*后面下拉菜单需要定位*/
+    display: grid;
+    grid-template-columns: 27% 50% 10% 13%;
+    padding-top: 10px;
+    padding-left: 1%;
+    padding-bottom: 20px;
+}
+
+.head-logo-mobule h1{
+    font-family: 'Cormorant Garamond', serif;
+    padding-left: 5%;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.headNavBtn{
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 17% ;
+    margin-top: 1%;
+}
+
+.headNavBtn button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    padding-top: 13px;
+    letter-spacing: 0.08em;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A3A64;
+    font-family: 'Lora', serif;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+
+.headNavBtn button:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-color: #15365A;
+}
+
+
+
+/**/
+.headISOSelect-mobule{
+    display: grid;
+    grid-template-columns: 20% 75%;
+    margin-top: 10%;
+}
+
+.headISOSelect-mobule svg{
+    margin: auto;
+}
+
+.headISOSelect{
+    width: 90%;
+    height: 30px;
+    border: none;
+    background-color: rgba(235, 235, 235, 0);
+    margin-top: 10%;
+    margin-left: 10%;
+    outline: none;
+    color: #1A3A64;
+    font-family: 'Lora', serif;
+}
+
+.headNavCart{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    float: right;
+    padding-left: 30%;
+    padding-top: 8%;
+}
+
+.headNavCart svg:hover{
+    cursor: pointer;
+}
+
+.headNavCart p{
+    width: 90%;
+    text-align: right;
+    padding-right: 10%;
+    color: rgb(5, 5, 43);
+}
+
+.headNavCart svg{
+    margin: auto;
+}
+
+.headCart{
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.headCart div{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    color: #d10483;
+    font-weight: 700;
+}
+
+.loginState{
+    position: absolute;
+    right: -10%;
+    bottom: 2px;
+}
+
+
+/*下拉菜单明细*/
+.head-menu-artisan-details-mobule{
+    position: absolute;
+    top: 100%;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 380px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% 25%;
+}
+
+.head-menu-artisan-details-mobule div{
+    border-right: 1px white solid;
+    padding-top: 5%;
+}
+
+.head-menu-artisan-details-mobule div a{
+    text-decoration: none;
+}
+
+.head-menu-artisan-details-mobule div:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.head-menu-artisan-details-mobule h3{
+    text-align: center;
+    letter-spacing: 0.09em;
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.head-menu-artisan-details-mobule img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.head-menu-artisan-introduction{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    
+}
+
+
+/*登录*/
+.head-login-mobule{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(110, 110, 110, 0.432);
+    width: 100%;
+    height: 100%;
+    padding-top: 1%;
+    border-radius: 10px;
+    display: none;
+    z-index: 10000;
+    backdrop-filter: blur(5px);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.head-login-div{
+    position: relative;
+}
+
+.head-login-close-btn{
+    font-size: 18px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    color: red;
+    margin-left: 66%;
+    margin-right: 3%;
+    background-color: rgb(230, 230, 230);
+}
+
+.head-login-close-btn:hover{
+    background-color: orangered;
+    color: white;
+}
+
+
