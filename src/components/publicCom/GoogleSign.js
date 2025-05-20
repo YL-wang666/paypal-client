@@ -1,48 +1,42 @@
-import React, { useState, useEffect } from 'react';
-import { GoogleLogin, GoogleLogout } from 'react-google-login';
-import { gapi } from 'gapi-script';
-function GoogleSign(props) {
-    const [ profile, setProfile ] = useState([]);
+import React, { useEffect, useState } from 'react';
+import { GoogleOAuthProvider, GoogleLogin, googleLogout } from '@react-oauth/google';
+import { jwtDecode } from 'jwt-decode';
+
+function GoogleSign({ googleLog, logout, name }) {
+    const [profile, setProfile] = useState(null);
+
     const clientId = '165135849198-ncvtt6e08fosh9arrok4dkqj0h24k1mb.apps.googleusercontent.com';
-    useEffect(() => {
-        const initClient = () => {
-            gapi.client.init({
-                clientId: clientId,
-                scope: ''
-            });
-        };
-        gapi.load('client:auth2', initClient);
-    });
-    const onSuccess = (res) => {
-        setProfile(res.profileObj);
-        localStorage.setItem("userName",res.profileObj.email)
-        props.googleLog(res.profileObj.email)
+
+    const handleSuccess = (credentialResponse) => {
+        const decoded = jwtDecode(credentialResponse.credential);
+        setProfile(decoded);
+        localStorage.setItem("userName", decoded.email);
+        googleLog(decoded.email);
     };
-    const onFailure = (err) => {
-        console.log('failed', err);
-    };
-    const logOut = () => {
+
+    const handleLogout = () => {
+        googleLogout();
         setProfile(null);
-        localStorage.removeItem("userName")
-        props.logout()
+        localStorage.removeItem("userName");
+        logout();
     };
+
     return (
-        <div>
-            {
-                props.name?
-                <GoogleLogin
-                    clientId={clientId}
-                    buttonText="Sign in with Google"
-                    onSuccess={onSuccess}
-                    onFailure={onFailure}
-                    cookiePolicy={'single_host_origin'}
-                    isSignedIn={true}
-                /> :
-                <GoogleLogout clientId={clientId} buttonText="Log out" onLogoutSuccess={logOut} />
-            }
-        
-        
-        </div>
+        <GoogleOAuthProvider clientId={clientId}>
+            <div>
+                {name ? (
+                    <GoogleLogin
+                        onSuccess={handleSuccess}
+                        onError={() => {
+                            console.log('Login Failed');
+                        }}
+                    />
+                ) : (
+                    <button onClick={handleLogout}>Log out</button>
+                )}
+            </div>
+        </GoogleOAuthProvider>
     );
 }
+
 export default GoogleSign;
